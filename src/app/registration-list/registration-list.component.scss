@@ -1,0 +1,98 @@
+.registration .content h1{
+    
+    font-size: 36px;
+    text-align: center;
+    color:white;
+    text-decoration: underline;
+   
+  }
+  .registration{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url('../../assets/img/acceuil.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  table{
+    width: 1300px;
+    background:transparent;
+    border: 2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    color:#fff;
+    border-radius: 10px ;
+    padding: 30px 40px;
+    
+  }
+
+  mat-form-field{
+    margin-left: 740px;
+  }
+
+ 
+  mat-label{
+    width: 200px;
+    
+  }
+  .d-flex button{
+    width: 350px;
+    background:transparent;
+    border: 2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    color:#fff;
+    border-radius: 10px ;
+    padding: 30px 40px;
+    margin-left: -0.2%;
+  }
+  .d-flex button:hover{
+    background: var(--primary-color);
+    color: white;
+  }
+
+  mat-paginator{
+    background: var(--primary-color);
+  }
+  @media (max-width:991px) {
+    table{
+      width: 10px;
+      background:transparent;
+      border: 2px solid rgba(255,255,255,.2);
+      backdrop-filter: blur(20px);
+      box-shadow: 0 0 10px rgba(0,0,0,.2);
+      color:#fff;
+      border-radius: 10px ;
+      padding: 30px 40px;
+      
+    }
+    mat-form-field{
+      margin-left: 250px;
+      width: 180px;
+     
+      
+    }
+    .d-flex button{
+      width: 250px;
+      background:transparent;
+      border: 2px solid rgba(255,255,255,.2);
+      backdrop-filter: blur(20px);
+      box-shadow: 0 0 10px rgba(0,0,0,.2);
+      color:#fff;
+      border-radius: 10px ;
+      padding: 30px 40px;
+      margin-left: -8%;
+    }
+    .d-flex button:hover{
+      background: var(--primary-color);
+      color: white;
+    }
+  
+    
+    
+}

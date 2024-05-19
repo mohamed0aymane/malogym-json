@@ -1,0 +1,98 @@
+{
+  "contact": [
+    {
+      "name": "oumaima amamou",
+      "email": "oumaima@gmail.com",
+      "message": "hmddd hmddd ",
+      "id": 4
+    },
+    {
+      "name": "adnane aloaui",
+      "email": "adnane@gmail.com",
+      "message": "j 'aime votre salle ",
+      "id": 5
+    }
+  ],
+  "enquiry": [
+    {
+      "firstName": "mohamed aymane",
+      "lastName": "lamhamdi",
+      "email": "aymane@gmail.com",
+      "mobile": "070555",
+      "weight": 49,
+      "height": 20,
+      "bmi": 0.005,
+      "bmiResult": "Underweight",
+      "gender": "Male",
+      "requireTrainer": "Yes",
+      "package": "Monthly",
+      "important": [
+        "Healthier Digestive System"
+      ],
+      "haveGymBefore": "Yes",
+      "enquiryDate": "2024-04-26T23:00:00.000Z",
+      "id": 1
+    },
+    {
+      "firstName": "oumaima",
+      "lastName": "amamou",
+      "email": "oumaima@gmail.com",
+      "mobile": "0000000000",
+      "weight": 70,
+      "height": 1.66,
+      "bmi": 0.5806357961968356,
+      "bmiResult": "Underweight",
+      "gender": "Female",
+      "requireTrainer": "Yes",
+      "package": "Yearly",
+      "important": [
+        "Energy and Endurance",
+        "Healthier Digestive System",
+        "Fiteness"
+      ],
+      "haveGymBefore": "Yes",
+      "enquiryDate": "2024-04-27T23:00:00.000Z",
+      "id": 2
+    },
+    {
+      "firstName": "adnane",
+      "lastName": "mahraz",
+      "email": "adnane@gmail.com",
+      "mobile": "070555558",
+      "weight": 80,
+      "height": 1.8,
+      "bmi": 0.5555555555555556,
+      "bmiResult": "Underweight",
+      "gender": "Male",
+      "requireTrainer": "Yes",
+      "package": "Quarterly",
+      "important": [
+        "Toxic Fat reduction",
+        "Energy and Endurance",
+        "Building Lean Muscle"
+      ],
+      "haveGymBefore": "Yes",
+      "enquiryDate": "2024-04-29T23:00:00.000Z",
+      "id": 3
+    },
+    {
+      "firstName": "akram",
+      "lastName": "Essa",
+      "email": "akram@gmail.com",
+      "mobile": "00000",
+      "weight": 80,
+      "height": 1.69,
+      "bmi": 0.5602044746332412,
+      "bmiResult": "Underweight",
+      "gender": "Male",
+      "requireTrainer": "Yes",
+      "package": "normal",
+      "important": [
+        "Fiteness"
+      ],
+      "haveGymBefore": "Yes",
+      "enquiryDate": "2024-04-03T00:00:00.000Z",
+      "id": 5
+    }
+  ]
+}

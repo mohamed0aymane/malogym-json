@@ -1,0 +1,129 @@
+
+.container{
+    padding: 40px;
+    margin: 10px;
+    position: relative;
+    top: 50px;
+    left: 80px ;
+  }
+  .description-container{
+    max-width:800px;
+    height: 700px;
+    margin-top:70px;
+    margin-bottom: 580px;
+    margin-left: 200px;
+    
+  }
+  .description-container .floating-image{
+   max-width: 500px;
+   height: 400px;
+   }
+   .description-container .floating-image.right{
+    float: right;
+    margin-left:30px ;
+    margin-bottom: 10px;
+   }
+   .description-container p{
+    text-align: justify;
+  
+   }
+   .text{
+    text-align: center;
+   }
+   h1{
+    font-weight: bold;
+    margin-top:40px;
+    font-size: 40px;
+    text-align: center;
+    color:var(--primary-color);
+    text-decoration: underline;
+   }
+   h2{
+    text-align: center;
+    color: black;
+    font-size: 18px;
+  }
+   h3{
+    
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 15px;
+    
+   }
+   .right{
+    width: 500px;
+    height: 380px;
+   }
+   .left{
+    width: 700px;
+    height: 330px ;
+   }
+   .description-container .floating-image.left{
+    float: left;
+    margin-right:30px ;
+    margin-bottom: 10px; }
+    hr{
+      color:rgb(60, 60, 128);
+    line-height: 100px;
+    }
+
+    @media screen and (max-width:900px){
+      .description-container{
+        max-width:800px;
+        height: 700px;
+        margin-top:70px;
+        margin-bottom: 300%;
+        margin-left: -20px;
+        
+      }
+      
+      h1{
+        font-weight: bold;
+        margin-top:40px;
+        font-size: 25px;
+        text-align: center;
+        color:var(--primary-color);
+        text-decoration: underline;
+       }
+       h2{
+        text-align: center;
+        color: black;
+        font-size: 85%;
+      }
+       h3{
+        
+        text-align: center;
+        color: var(--primary-color);
+        font-size: 15px;
+        
+       }
+    }
+    @media screen and (max-width:480px){
+      .description-container{
+        max-width:400px;
+        height: 700px;
+        margin-top:70px;
+        margin-bottom: 400%;
+        align-items: center;
+        margin-left: -110px;
+        
+      }
+      .description-container .floating-image{
+        max-width: 400px;
+        height: 400px;
+        }
+      h1{
+        font-weight: bold;
+        margin-top:40px;
+        font-size: 26px;
+        margin-left: -170px;
+        color:var(--primary-color);
+        text-decoration: underline;
+       }
+       h2{
+        text-align: center;
+        color: black;
+        font-size: 13px;
+        margin-left: -170px;
+      }
+  }

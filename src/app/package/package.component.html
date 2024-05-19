@@ -1,0 +1,35 @@
+<br><br><br>
+<h1>Abonnement</h1>
+  <div class="subscription-container">
+    <div class="subscription-box gold">
+      <img src="../../../assets/img/acceuil.jpg" alt="Gold Membership" (click)="showDetails('gold')">
+      <h2>Gold Membership</h2>
+      <p class="price">$50/month</p>
+      <p class="description">Access to all facilities including sauna, pool, and unlimited classes.</p>
+      <button (click)="showMore('gold')">Read more</button>
+      <button routerLink="/register">S'abonner</button>
+    </div>
+    <div class="subscription-box silver">
+      <img src="../../../assets/img/acceuil.jpg"  alt="Silver Membership" (click)="showDetails('silver')">
+      <h2>Silver Membership</h2>
+      <p class="price">$40/month</p>
+      <p class="description">Access to gym equipment and limited classes.</p>
+      <button (click)="showMore('silver')">Read more</button>
+      <button routerLink="/register">S'abonner</button>
+    </div>
+    <div class="subscription-box normal">
+      <img src="../../../assets/img/acceuil.jpg"  alt="Normal Membership" (click)="showDetails('normal')">
+      <h2>Normal Membership</h2>
+      <p class="price">$30/month</p>
+      <p class="description">Basic access to gym facilities.</p>
+      <button (click)="showMore('normal')">Read more</button>
+      <button routerLink="/register">S'abonner</button>
+    </div>
+  </div>
+  
+  <div *ngIf="showDetailsFlag" class="additional-details">
+    <h3>Additional Details</h3>
+    <p>{{ additionalDetails }}</p>
+  </div>
+  <br><br><br>
+  
